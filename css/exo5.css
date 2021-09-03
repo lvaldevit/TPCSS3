@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #101010;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main {
+    margin-bottom: 30px;
+}
+
+main a {
+    color: darkorange;
+}
+
+header {
+    position: relative;
+}
+
+nav {
+    padding: 15px 0;
+}
+
+nav p {
+    color: darkorange;
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid;
+    border-color: darkorange;
+    line-height: 48px;
+}
+
+ul {
+    border: 2px solid darkorange;
+    width: fit-content;
+    margin-left: auto;
+}
+
+li {
+    display: inline-block;
+
+}
+
+li a {
+    padding: 15px 30px;
+    display: block;
+    text-decoration: none;
+    color: darkorange;
+}
+
+li a:hover {
+    color: #101010;
+    background-color: darkorange;
+}
+
+main p {
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin: 40px 0 60px 0;
+    position: relative;
+}
+
+h1:before {
+    content:"";
+    position: absolute;
+    background-color: white;
+    left: 0;
+    top: 15px;
+    height: 3px;
+    width: 550px;
+}
+
+h1:after {
+    content:"";
+    position: absolute;
+    background-color: white;
+    right: 0;
+    top: 15px;
+    height: 3px;
+    width: 550px;
+}
+
+
+.illustration-floatRight img {
+    float: right;
+    border-radius: 30px;
+    width: 620px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h2, h3 {
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 25px;
+}
+
+.inline-blocks-container {
+    display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.inline-block img {
+    width: 300px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.inline-block figcaption {
+    background-color: darkorange;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-align: center;
+}
+
+.inline-block figcaption a {
+    display: block;
+    padding: 20px 0;
+    color: #101010;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.inline-scnd-container {
+    display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.inline-scnd img {
+    width: 750px;
+    height: 340px;
+    border-radius: 10px;
+}
+
+img[alt*="noir"] {
+    margin-left: 25px;
+    margin-right: 0;
+    object-fit: cover;
+}
+
+img[alt*="poil"] {
+    margin-left: 0;
+    margin-right: 25px;
+    object-fit: cover;
+}
+
+div.inline-scnd p {
+    text-justify: none;
+    margin-bottom: 0;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: 40px 0;
+}
+
+footer a {
+    color: darkorange;
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+    body {
+        background-color: purple;
+    }
+
+}
